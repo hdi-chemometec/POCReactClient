@@ -22,7 +22,7 @@ const InstrumentName: FC<InstrumentNameProps> = ({stateValue}) => {
                 return '#f28029'; //orange
             case RunStatusType.PAUSED:
                     return '#f28029'; //orange
-            case StateType.INTRASITION:
+            case StateType.INTRANSITION:
                 return '#E12F20'; //red
             case RunStatusType.RUNNING:
                 return '#E12F20'; //red
