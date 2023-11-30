@@ -6,7 +6,8 @@ export enum ServerTransmitMessageType{
     RUN_STATUS = "RUN_STATUS",
     RUN = 'RUN',
     COMMAND = "COMMAND",
-    STATE = "STATE"
+    STATE = "STATE",
+    INSTRUMENT_CONNECTION = "INSTRUMENT_CONNECTION"
 }
 
 export interface ServerTransmitMessage {

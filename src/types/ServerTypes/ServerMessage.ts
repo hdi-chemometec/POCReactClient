@@ -4,5 +4,5 @@ import { ServerMessageType } from "./ServerMessageType";
 
 export interface ServerMessage {
     type: ServerMessageType,
-    content: string | ProtocolDataObject | RunCreatedObject
+    content: string | ProtocolDataObject | RunCreatedObject | boolean
 }
