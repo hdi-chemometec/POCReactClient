@@ -20,6 +20,9 @@ const App: FC = () => {
 
   const {robotProtocolList: protocolList, robotProtocol: protocol, instrumentStateValue, handleRobotProtocolSelected, currentRobotRun, runStatus} = useContext(RobotContext)
 
+
+  const isEmpty:boolean = (currentRobotRun === "" || currentRobotRun === undefined) ? false : true;
+
   return (
     <div className="App mt-24 mr-2 xl:mr-80 md:mr-52 sm:mr-24">
       <div className="justify-content-start items-center grid grid-cols-3 gap-2 p-1">
@@ -45,7 +48,7 @@ const App: FC = () => {
           </div>
         </div>
 
-        <div className="col-span-2 row-span-2 p-1" >
+        <div className="col-span-2 row-span-2 p-1 flex" >
           <CreateRunButton />
           <ServerRunButton />
         </div>
@@ -53,17 +56,14 @@ const App: FC = () => {
         <div className="col-span-3 text-left text-primary font-sans xl:text-xl md:text-lg sm:text-sm p-1" >
           <h2>Current run id:</h2>
         </div>
+
         <div className="col-span-3 text-left text-primary font-sans xl:text-xl md:text-lg sm:text-sm p-1" >
-          <h2>{currentRobotRun}</h2>
+          {isEmpty && <h2>{currentRobotRun}  </h2>}
         </div>
+
         <div className="col-span-3 text-left text-green-500 font-sans xl:text-xl md:text-lg sm:text-sm p-1" >
           <h2>{currentRobotRun && runStatus===RunStatusType.IDLE? "Robot is ready to go !" : ""}</h2>
-        </div>
-
-        <div>
-
-        </div>
-      
+        </div>      
     </div>
   );
 }
