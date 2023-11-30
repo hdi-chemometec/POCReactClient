@@ -6,6 +6,7 @@ export enum ServerMessageType {
     RUN = 'RUN',
     COMMAND = 'COMMAND',
     RUN_STATUS = 'RUN_STATUS',
-    STATE = 'STATE'
+    STATE = 'STATE',
+    INSTRUMENT_CONNECTION = 'INSTRUMENT_CONNECTION'
   }
   
