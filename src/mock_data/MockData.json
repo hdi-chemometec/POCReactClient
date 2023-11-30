@@ -1,0 +1,1147 @@
+[
+    {
+        "acquisitionDateTime": "2023-04-05 09:25:27",
+        "analysisDateTime": "2023-04-05 09:26:07",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 09:25:27",
+        "sampleid": "",
+        "sid": "20230405-00001",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 09:26:07",
+        "analysisDateTime": "2023-04-05 09:26:49",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 09:25:27",
+        "sampleid": "",
+        "sid": "20230405-00002",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": []
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 10:38:22",
+        "analysisDateTime": "2023-04-05 10:39:01",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 10:38:22",
+        "sampleid": "",
+        "sid": "20230405-00003",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 10:39:01",
+        "analysisDateTime": "2023-04-05 10:39:42",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 10:38:22",
+        "sampleid": "",
+        "sid": "20230405-00004",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 10:40:52",
+        "analysisDateTime": "2023-04-05 10:41:31",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 10:40:52",
+        "sampleid": "",
+        "sid": "20230405-00005",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 10:41:31",
+        "analysisDateTime": "2023-04-05 10:42:11",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 10:40:52",
+        "sampleid": "",
+        "sid": "20230405-00006",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": []
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 10:43:33",
+        "analysisDateTime": "1970-01-01 00:59:59",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 10:43:33",
+        "sampleid": "",
+        "sid": "20230405-00007",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": []
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 10:44:13",
+        "analysisDateTime": "2023-04-05 10:44:57",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 10:43:33",
+        "sampleid": "",
+        "sid": "20230405-00008",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 10:46:23",
+        "analysisDateTime": "1970-01-01 00:59:59",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "IQOQ/NC-202 IQ/OQ",
+        "registrationDateTime": "2023-04-05 10:46:23",
+        "sampleid": "",
+        "sid": "20230405-00009",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": []
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 10:50:01",
+        "analysisDateTime": "2023-04-05 10:50:41",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 10:50:01",
+        "sampleid": "",
+        "sid": "20230405-00011",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 10:50:41",
+        "analysisDateTime": "2023-04-05 10:51:23",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 10:50:01",
+        "sampleid": "",
+        "sid": "20230405-00012",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 10:55:40",
+        "analysisDateTime": "2023-04-05 10:56:19",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 10:55:39",
+        "sampleid": "",
+        "sid": "20230405-00013",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 10:56:19",
+        "analysisDateTime": "2023-04-05 10:57:01",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 10:55:39",
+        "sampleid": "",
+        "sid": "20230405-00014",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 10:58:35",
+        "analysisDateTime": "2023-04-05 10:59:14",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 10:58:34",
+        "sampleid": "",
+        "sid": "20230405-00015",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 10:59:14",
+        "analysisDateTime": "2023-04-05 10:59:55",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 10:58:34",
+        "sampleid": "",
+        "sid": "20230405-00016",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 11:00:54",
+        "analysisDateTime": "2023-04-05 11:01:34",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 11:00:54",
+        "sampleid": "",
+        "sid": "20230405-00017",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 11:01:34",
+        "analysisDateTime": "2023-04-05 11:02:15",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 11:00:54",
+        "sampleid": "",
+        "sid": "20230405-00018",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 11:38:01",
+        "analysisDateTime": "2023-04-05 11:38:40",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 11:38:00",
+        "sampleid": "",
+        "sid": "20230405-00019",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    },
+    {
+        "acquisitionDateTime": "2023-04-05 11:38:40",
+        "analysisDateTime": "2023-04-05 11:39:21",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-05 11:38:00",
+        "sampleid": "",
+        "sid": "20230405-00020",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": []
+    },
+    {
+        "acquisitionDateTime": "2023-04-06 10:38:01",
+        "analysisDateTime": "2023-04-06 10:38:40",
+        "approvedby": "",
+        "instrument": "9002020102000620",
+        "media": "Via2-Cassette",
+        "operatorid": "",
+        "protocol": "Protocols/Count & Viability",
+        "registrationDateTime": "2023-04-06 10:38:00",
+        "sampleid": "",
+        "sid": "20230406-00001",
+        "tags": [],
+        "type": "DataSetOverview",
+        "userid": "hdi",
+        "values": [
+            {
+                "name": "Total",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Live",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Dead",
+                "type": "result_block",
+                "unit": "cells/ml",
+                "value": "0.00E+00"
+            },
+            {
+                "name": "Viability",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Diameter",
+                "type": "result_block",
+                "unit": "µm",
+                "value": "ND"
+            },
+            {
+                "name": "Aggregates",
+                "type": "result_block",
+                "unit": "%",
+                "value": "ND"
+            },
+            {
+                "name": "Debris Index",
+                "type": "result_block",
+                "unit": "",
+                "value": "ND"
+            },
+            {
+                "name": "Dilution Factor",
+                "type": "result_block",
+                "unit": "",
+                "value": "1"
+            },
+            {
+                "name": "Status",
+                "type": "result_block",
+                "unit": "",
+                "value": "Warning: Out of range (5E+04 - 1E+07 cells/ml)"
+            }
+        ]
+    }
+]
