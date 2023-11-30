@@ -224,7 +224,7 @@ export const useInstrument = () => {
 
   //When instrument connects/disconnect/other, update name
   const handleNameChange = (currentName: string): void => {
-    if(instrumentStateValue === (StateType.INTRASITION || StateType.POWEROFF || StateType.UNKNOWN || StateType.NOSTATE )) {
+    if(instrumentStateValue === (StateType.INTRANSITION || StateType.POWEROFF || StateType.UNKNOWN || StateType.NOSTATE )) {
       setInstrumentName('No connected instrument')
     }
     if(instrumentStateValue === StateType.ERROR) {
