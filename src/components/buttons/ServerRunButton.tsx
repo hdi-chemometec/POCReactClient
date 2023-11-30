@@ -1,6 +1,5 @@
 import { FC, useContext } from 'react';
 import RunIcon from '../../styling/icons/RunIcon'
-import PauseIcon from '../../styling/icons/PauseIcon';
 import { RobotContext } from '../../context/useRobot';
 import { RunStatusType } from '../../types/ServerTypes/RunStatusType';
 
@@ -19,22 +18,26 @@ const ServerRunButton: FC = () => {
         }
         return true;
     }
-
-    const handleIcon = (): JSX.Element => {
-        if(runStatus === RunStatusType.IDLE || runStatus === RunStatusType.PAUSED){
-            return <RunIcon />;
+    
+    const handleShowButton = (): boolean => {
+        if(runStatus !== RunStatusType.UNKNOWN){
+            return true;
         }
-        return <PauseIcon />;
+        return false;
     }
 
+    const showButton = handleShowButton();
+
     return(
-        <div className= "button inline-flex rounded-full justify-center w-20 h-20 mr-8 bg-primary text-secondary">
-            <button
-            className='disabled:opacity-50'
-                onClick={handleClick}
-                disabled={handleDisabled()}>
-                {handleIcon()}
-            </button> 
+        <div>
+            {showButton && (<div className= "button inline-flex rounded-full justify-center w-20 h-20 mr-8 bg-primary text-secondary">
+                <button
+                className='disabled:opacity-50'
+                    onClick={handleClick}
+                    disabled={handleDisabled()}>
+                    {<RunIcon />}
+                </button>
+            </div>)}
         </div>
     );
 }
