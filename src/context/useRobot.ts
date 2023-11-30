@@ -18,6 +18,7 @@ export const RobotContext = createContext<ContextType>({
     runStatus: RunStatusType.UNKNOWN,
     instrumentStateValue: StateType.UNKNOWN,
     instrumentState: 'No connected instrument',
+    instrumentStateConnection: false,
     handleRobotProtocolSelected: (receivedProtocol: string) => null,
     handleCreateRunClick: () => null,
     handleRunClick: () => null,

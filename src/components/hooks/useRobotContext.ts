@@ -28,6 +28,7 @@ export const useRobot = () => {
 
     // -------------- instrument -------------- //
     const [instrumentState, setInstrumentState] = useState<string>('Instrument is not connected');
+    const [instrumentStateConnection, setInstrumentStateConnection] = useState<boolean>(false);
     const [instrumentStateValue, setInstrumentStateValue] = useState<StateType>(StateType.NOSTATE);
     
     // -------------- WS -------------- //
@@ -117,8 +118,7 @@ export const useRobot = () => {
         setRunCommand(command);
         break;
       case ServerMessageType.STATE: {
-        let state : StateType = msg.content as StateType;
-        setInstrumentState('Instrument is connected');
+        let state : StateType = msg.content as StateType;        
         handleStateChange(state);
         break;
       }
@@ -126,6 +126,17 @@ export const useRobot = () => {
         console.log("Received run status");
         let runStatus : RunStatusType = msg.content as RunStatusType;
         setRunStatus(runStatus);
+        break;
+      case ServerMessageType.INSTRUMENT_CONNECTION:
+        console.log("Received instrument connection");
+        let instrumentConnection : boolean = msg.content as boolean;
+        setInstrumentStateConnection(instrumentConnection);
+        if(instrumentConnection === false) {
+          setInstrumentState('Instrument is not connected');
+        } else {
+          setInstrumentState('Instrument is connected');
+        }
+        sendJsonMessage({type: ServerTransmitMessageType.STATE});
         break;
       default:
         console.log("Received unknown message type: ", msg.type);
@@ -213,6 +224,7 @@ export const useRobot = () => {
     runStatus: runStatus,
     instrumentState: instrumentState,
     instrumentStateValue: instrumentStateValue,
+    instrumentStateConnection: instrumentStateConnection,
     handleRobotProtocolSelected,
     handleCreateRunClick,
     handleRunClick,
