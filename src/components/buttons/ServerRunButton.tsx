@@ -2,21 +2,23 @@ import { FC, useContext } from 'react';
 import RunIcon from '../../styling/icons/RunIcon'
 import { RobotContext } from '../../context/useRobot';
 import { RunStatusType } from '../../types/ServerTypes/RunStatusType';
+import { StateType } from '../../types/StateType';
 
 
 const ServerRunButton: FC = () => {
 
-    const {handleRunClick, runStatus } = useContext(RobotContext);
+    const { handleRunClick, runStatus, instrumentStateConnection, currentRobotRun, instrumentStateValue } = useContext(RobotContext);
 
     const handleClick = (): void => {
         handleRunClick();
     }
     
     const handleDisabled = (): boolean => {
-        if(runStatus === RunStatusType.IDLE || runStatus === RunStatusType.PAUSED){
+        if((runStatus !== RunStatusType.IDLE && runStatus !== RunStatusType.PAUSED) || (instrumentStateConnection === false) ||(currentRobotRun === "") || (instrumentStateValue === StateType.ERROR) || (instrumentStateValue === StateType.INTRANSITION) || (instrumentStateValue === StateType.NOSTATE)){
+            return true;
+        } else{
             return false;
         }
-        return true;
     }
     
     const handleShowButton = (): boolean => {
