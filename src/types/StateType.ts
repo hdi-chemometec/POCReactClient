@@ -9,5 +9,5 @@ export enum StateType {
     SLEEP = 'SLEEP',
     POWEROFF = 'POWEROFF',
     TRAYOPEN = 'TRAYOPEN',
-    INTRASITION = 'INTRASITION',
+    INTRANSITION = 'INTRANSITION',
 } 
