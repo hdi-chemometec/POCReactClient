@@ -14,7 +14,7 @@ const ServerRunButton: FC = () => {
     }
     
     const handleDisabled = (): boolean => {
-        if((runStatus !== RunStatusType.IDLE && runStatus !== RunStatusType.PAUSED) || (instrumentStateConnection === false) ||(currentRobotRun === "") || (instrumentStateValue === StateType.ERROR) || (instrumentStateValue === StateType.INTRANSITION) || (instrumentStateValue === StateType.NOSTATE)){
+        if((instrumentStateConnection === false) ||(currentRobotRun === "") || runStatus !== RunStatusType.IDLE || instrumentStateValue !== (StateType.UNKNOWN || StateType.IDLE)){
             return true;
         } else{
             return false;
@@ -22,10 +22,10 @@ const ServerRunButton: FC = () => {
     }
     
     const handleShowButton = (): boolean => {
-        if(runStatus !== RunStatusType.UNKNOWN){
-            return true;
+        if(runStatus !== RunStatusType.UNKNOWN && (runStatus === RunStatusType.SUCCEEDED || runStatus === RunStatusType.STOPPED)){
+            return false;
         }
-        return false;
+        return true;
     }
 
     const showButton = handleShowButton();
