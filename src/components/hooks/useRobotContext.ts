@@ -78,7 +78,7 @@ export const useRobot = () => {
         break;
       case ServerMessageType.ROBOT:
         console.log("Received robot");
-        if(msg.content === "True" || msg.content === "true") {
+        if(msg.content !== "False") {
           console.log("Robot is connected");
           setRobotState("Robot is connected");
           setRobotConnection(RobotType.CONNECTED);
