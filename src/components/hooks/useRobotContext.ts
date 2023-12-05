@@ -125,6 +125,9 @@ export const useRobot = () => {
       case ServerMessageType.RUN_STATUS:
         console.log("Received run status");
         let runStatus : RunStatusType = msg.content as RunStatusType;
+        if(runStatus.length === 0) {
+          break;
+        }
         setRunStatus(runStatus);
         break;
       case ServerMessageType.INSTRUMENT_CONNECTION:
