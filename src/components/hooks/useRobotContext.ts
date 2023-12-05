@@ -141,6 +141,10 @@ export const useRobot = () => {
         }
         sendJsonMessage({type: ServerTransmitMessageType.STATE});
         break;
+      case ServerMessageType.ERROR:
+        console.log("Received error");
+        console.log(msg.content);
+        break;
       default:
         console.log("Received unknown message type: ", msg.type);
         break;
