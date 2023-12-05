@@ -207,8 +207,11 @@ export const useRobot = () => {
       protocolId: currentRobotRun,
       command: RunType.PLAY
     };
+    if(robotConnection !== RobotType.CONNECTED || instrumentStateConnection !== true || currentRobotRun === '') {
+      console.log("Either robot or instrument is not idle");
+      return;
+    }
     transmitMessage(messageToSend);
-    console.log("Either robot or instrument is not idle");
   }
 
   const handleStateChange = (receivedState: StateType): void => {
