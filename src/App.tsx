@@ -11,7 +11,7 @@ import { RobotContext } from './context/useRobot';
 import RobotConnection from './components/RobotConnection';
 import CreateRunButton from './components/buttons/CreateRunButton';
 import ServerRunButton from './components/buttons/ServerRunButton';
-import InstrumentName from './components/InstrumentName';
+import StateHandler from './components/StateHandler';
 import InstrumentConnection from './components/instrumentConnection';
 import { RunStatusType } from './types/ServerTypes/RunStatusType';
 
@@ -30,7 +30,7 @@ const App: FC = () => {
       </div>
       <div className="col-span-3 text-left text-primary font-sans xl:text-xl md:text-lg sm:text-sm p-1" >
         <h2>Robot run status:</h2>
-        <InstrumentName stateValue={runStatus} />
+        <StateHandler stateValue={runStatus} />
       </div>
 
       <div className="justify-content-start items-center grid grid-cols-3 gap-2 p-1">
@@ -38,7 +38,7 @@ const App: FC = () => {
       </div>
       <div className="col-span-3 text-left text-primary font-sans xl:text-xl md:text-lg sm:text-sm p-1" >
         <h2>Instrument state:</h2>
-        <InstrumentName stateValue={instrumentStateValue} />
+        <StateHandler stateValue={instrumentStateValue} />
       </div>
 
 

@@ -3,15 +3,15 @@ import { FC } from "react";
 import { StateType } from "../types/StateType";
 import { RunStatusType } from "../types/ServerTypes/RunStatusType";
 
-interface InstrumentNameProps {
+interface StateHandlerProps {
     stateValue: StateType | RunStatusType;
 }
 
-const InstrumentName: FC<InstrumentNameProps> = ({stateValue}) => {
+const StateHandler: FC<StateHandlerProps> = ({stateValue}) => {
 
 
 
-    const handleInstrumentColor = (stateValue: StateType | RunStatusType): string => {
+    const handleStateColor = (stateValue: StateType | RunStatusType): string => {
         
         switch(stateValue) {
             case StateType.IDLE:
@@ -33,10 +33,10 @@ const InstrumentName: FC<InstrumentNameProps> = ({stateValue}) => {
 
     return(
         <div className="text-left xl:text-xl md:text-lg sm:text-sm font-sans">
-            <h2 style={{color: handleInstrumentColor(stateValue)}}>{stateValue}</h2>
+            <h2 style={{color: handleStateColor(stateValue)}}>{stateValue}</h2>
         </div>
             
         );
 }
 
-export default InstrumentName;
+export default StateHandler;
