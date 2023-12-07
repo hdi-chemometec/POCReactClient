@@ -13,7 +13,7 @@ interface DropdownMenuProps {
 }
 
 
-const DropdownMenu: FC<DropdownMenuProps> = ({dropdownOptions, selectedValue, isRunning, handleOptionClick, isExpanded, setIsExpanded}) => {
+const DropdownMenu: FC<DropdownMenuProps> = ({dropdownOptions, selectedValue, handleOptionClick, isExpanded, setIsExpanded}) => {
     const isMenuOpen = isExpanded;
     const isMenuClosed = !isExpanded;
 
