@@ -8,7 +8,7 @@ import DropdownComponent from './components/dropdown/DropdownComponent';
 import { RobotContext } from './context/useRobot';
 
 //Robot
-import RobotName from './components/RobotName';
+import RobotConnection from './components/RobotConnection';
 import CreateRunButton from './components/buttons/CreateRunButton';
 import ServerRunButton from './components/buttons/ServerRunButton';
 import InstrumentName from './components/InstrumentName';
@@ -26,7 +26,7 @@ const App: FC = () => {
   return (
     <div className="App mt-24 mr-2 xl:mr-80 md:mr-52 sm:mr-24">
       <div className="justify-content-start items-center grid grid-cols-3 gap-2 p-1">
-        <RobotName />
+        <RobotConnection />
       </div>
       <div className="col-span-3 text-left text-primary font-sans xl:text-xl md:text-lg sm:text-sm p-1" >
         <h2>Robot run status:</h2>

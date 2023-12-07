@@ -2,7 +2,7 @@ import { FC, useContext } from "react";
 import { RobotContext } from "../context/useRobot";
 import { RobotType } from "../types/ServerTypes/RobotType";
 
-const RobotName: FC = () => {
+const RobotConnection: FC = () => {
 
     const { robotState, robotConnection } = useContext(RobotContext);
 
@@ -25,4 +25,4 @@ const RobotName: FC = () => {
         );
 }
 
-export default RobotName;
+export default RobotConnection;
