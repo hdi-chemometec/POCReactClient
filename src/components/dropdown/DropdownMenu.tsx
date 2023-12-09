@@ -6,7 +6,6 @@ import CaretUpIcon from '../../styling/icons/CaretUpIcon';
 interface DropdownMenuProps {
     dropdownOptions: string[];
     selectedValue: string;
-    isRunning?: boolean;
     handleOptionClick: (option: string) => void;
     isExpanded: boolean;
     setIsExpanded: (option: boolean) => void;

@@ -7,10 +7,9 @@ interface dropdownProps {
     selectedValue: string;
     labelName: string;
     selectItem: (option: string) => void;
-    isRunning?: boolean;
 }
 
-const DropdownComponent: FC<dropdownProps> = ({dropdownOptions, selectedValue, labelName, selectItem, isRunning}) => {
+const DropdownComponent: FC<dropdownProps> = ({dropdownOptions, selectedValue, labelName, selectItem}) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
     const handleOptionClick = (option: string) => {
@@ -48,8 +47,7 @@ const DropdownComponent: FC<dropdownProps> = ({dropdownOptions, selectedValue, l
                     selectedValue={selectedValue}
                     handleOptionClick={handleOptionClick}
                     isExpanded={isExpanded}
-                    setIsExpanded={setIsExpanded}
-                    isRunning={isRunning} />
+                    setIsExpanded={setIsExpanded}/>
             </div>
       </div>
     );
