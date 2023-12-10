@@ -80,6 +80,7 @@ We are using React as our frontend framework. This means that we are building ou
 The primary tech stack is as follows:
 
 - React - components
-- Node.js - server
 - TypeScript - language
+- Node.js - server
+- npm - package manager
 - Tailwind - styling
