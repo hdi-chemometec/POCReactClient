@@ -40,8 +40,9 @@ The current features of the application are the following:
 # Getting started
 Make sure you have the following installed:
 
-- Node.js
-- Git
+- Node.js version 16.17
+- git
+- npm version 8.15
 - Visual Studio Code
 - Powershell (You can use the one embedded in VS Code)
 
